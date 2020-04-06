@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de Cesar</title>
+    <link rel="stylesheet" href="style.css
+    ">
+</head>
+<body>
+    <h1>Bem vindo a página</h1>
+    <input type="number" name="deslocamento" id="offset" value="1" min="1" max="20"/><br>
+
+
+    <textarea type="text" id="valor"></textarea>
+    <input type="submit" onclick="capturar()" value="Cifrar">
+    <div class=textoNaoCifrado>
+     <p id= "valorDigitado"></p>
+     </div>
+
+     <textarea type="text" id="valor2"></textarea>
+    <input type="submit" onclick="pegar()" value="Decifrar">
+     <p id= "valorDigitado2"></p>
+     
+     <script src="app.js"></script>
+</body>
+</html>
